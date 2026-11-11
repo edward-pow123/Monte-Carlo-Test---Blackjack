@@ -1,0 +1,40 @@
+PLAYER1 DATA: Bust = True | Cards Given = [13, 10] | Total = 23 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [11, 9] | Total = 20 | Dealer = True 
+ROUND RESULT: player 2 win 
+
+PLAYER1 DATA: Bust = True | Cards Given = [13, 11] | Total = 24 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [3, 7, 10] | Total = 20 | Dealer = True 
+ROUND RESULT: player 2 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [11, 8] | Total = 19 | Dealer = True 
+PLAYER2 DATA: Bust = False | Cards Given = [8, 10] | Total = 18 | Dealer = False 
+ROUND RESULT: player 1 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [11, 3] | Total = 14 | Dealer = False 
+PLAYER2 DATA: Bust = True | Cards Given = [10, 13] | Total = 23 | Dealer = True 
+ROUND RESULT: player 1 win 
+
+PLAYER1 DATA: Bust = True | Cards Given = [13, 10] | Total = 23 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [4, 4, 12] | Total = 20 | Dealer = True 
+ROUND RESULT: player 2 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [1, 11] | Total = 12 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [4, 11, 6] | Total = 21 | Dealer = True 
+ROUND RESULT: player 2 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [10, 2, 7] | Total = 19 | Dealer = True 
+PLAYER2 DATA: Bust = False | Cards Given = [8, 9] | Total = 17 | Dealer = False 
+ROUND RESULT: player 1 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [6, 12, 1] | Total = 19 | Dealer = False 
+PLAYER2 DATA: Bust = True | Cards Given = [9, 3, 11] | Total = 23 | Dealer = True 
+ROUND RESULT: player 1 win 
+
+PLAYER1 DATA: Bust = True | Cards Given = [10, 13] | Total = 23 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [6, 12] | Total = 18 | Dealer = True 
+ROUND RESULT: player 2 win 
+
+PLAYER1 DATA: Bust = False | Cards Given = [9, 11, 1] | Total = 21 | Dealer = False 
+PLAYER2 DATA: Bust = False | Cards Given = [9, 2, 2, 3] | Total = 16 | Dealer = True 
+ROUND RESULT: player 1 win 
+
