@@ -1,38 +1,64 @@
-#Monte-carlo-blackjac
+# Monte Carlo Blackjack Simulation
 
-#Overview
--A Python based Monte Carlo simulation that runs multiple randomised games of Blackjack under common Las Vegas rules to analyse how different player decisions and behaviors affect game outcomes.
--The simulation records the results of each game and exports the data into an Excel spreadsheet and file for further analysis.
--This program could be able to help someone learn the most logical moves of a game of blackjack.
+## Overview
 
-#How it works
--Randomly selects one player to act as dealer.
--Deals 2 cards to every player.
--Non-dealer players randomly deal provided they haven't gone bust (over 21).
--The dealer follows predefined rules: must draw when their total is below 16, cannot draw if their total is above 17. If their total is 17 they have a random chance of dealing like a regular player.
--Once player 1 and 2 have finished dealing, the winner is caculated.
--Results are written to a txt file and .xlsx spreadsheet.
+A Python-based Monte Carlo simulation that runs multiple randomised games of Blackjack using a simplified set of Las Vegas-style rules. The aim is to analyse how different player decisions and behaviours affect game outcomes.
+The simulation records the results of each game and exports the data into a text file and an Excel spreadsheet for further analysis.
+The project could potentially help identify effective playing strategies by analysing the outcomes of a large number of simulated games.
 
-#Running it
--The simulation can run multiple games in succession. The number of games can be adjusted by editing the for loop on line 224.
--Running more simulations provides a larger dataset improving the acuracy.
--See requirements folder to run this program yourself.
+## How It Works
 
-#Technologies used
--Python
--Object-Oriented Programming
--Random module
--XlsxWriter library
+- Randomly selects one player to act as the dealer.
+- Deals two random cards to every player.
+- Non-dealer players randomly decide whether to draw another card, provided they haven't gone bust (exceeded 21).
+- The dealer follows predefined rules:
+  - Must draw when their total is below 16.
+  - Cannot draw when their total is above 17.
+  - When their total is exactly 17, they have a random chance of drawing another card.
+- Once all players have finished drawing cards, the winner is calculated.
+- Results are written to a `.txt` file and an `.xlsx` spreadsheet.
 
-#What I learned and developed
--Understand and implemented classes more effectively.
--Learn how to use the XlsxWriter library to generate Excel spreadsheets.
--Developed problem-solving and logical thinking skills.
--Worked with randomisation and repeated simulations.
--Structured a Python program to create and process large numbers of results.
--Developed my skills in making re-usable code.
+## Running the Simulation
 
-#Future improvements
--Have the user choose how many players there are.
--Allow the user to visualize the results.
--Utilize modularization better.
+The simulation can run multiple games in succession. The number of games can be adjusted by editing the `for` loop on line 224.
+
+Running more simulations produces a larger dataset, allowing for more extensive analysis of the results.
+
+### Requirements
+
+- Python 3
+- XlsxWriter
+
+Install the required library using:
+
+```bash
+pip install XlsxWriter
+```
+
+Run the program using:
+
+```bash
+python main.py
+```
+
+## Technologies Used
+
+- Python
+- Object-Oriented Programming (OOP)
+- Random module
+- XlsxWriter library
+
+## What I Learned and Developed
+
+- Improved my understanding and implementation of classes.
+- Learned how to use the XlsxWriter library to generate Excel spreadsheets.
+- Developed my problem-solving and logical thinking skills.
+- Gained experience working with randomisation and repeated simulations.
+- Learned how to structure a Python program to generate and process large amounts of data.
+- Improved my ability to write reusable code.
+
+## Future Improvements
+
+- Allow users to choose the number of players.
+- Introduce data visualisation to make simulation results easier to interpret.
+- Improve modularisation by separating different parts of the program into individual Python files.
