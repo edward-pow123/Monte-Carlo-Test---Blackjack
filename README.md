@@ -62,3 +62,7 @@ python main.py
 - Allow users to choose the number of players.
 - Introduce data visualisation to make simulation results easier to interpret.
 - Improve modularisation by separating different parts of the program into individual Python files.
+
+## Example output from .xlsx file
+
+<img width="751" height="181" alt="Screenshot 2026-11-11 212710" src="https://github.com/user-attachments/assets/a6d8b498-2a07-4276-bf11-31ec0b108d1f" />
